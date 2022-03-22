@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".MainActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#00BCD4"
+    android:orientation="vertical">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+
+    <TextView
+        android:id="@+id/tvsoA"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Số A:"
+        android:textColor="#FF0707"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/edsoA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tvsoB"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Số B:"
+            android:textColor="#FF0707"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/edsoB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/btnCong"
+            android:onClick="XuLyCong"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/btnTru"
+            android:onClick="XuLyTru"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="x"
+            android:id="@+id/btnNhan"
+            android:onClick="XuLyNhan"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:id="@+id/btnChia"
+            android:onClick="XuLyChia"/>
+
+            </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvKetQua"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="ket qua"
+        android:background="#FBF8F8"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="so hoc co ban"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:background="#DA9D42"
+        />
+</LinearLayout>
