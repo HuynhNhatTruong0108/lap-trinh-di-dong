@@ -27,9 +27,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                         if (user.getText().toString().equals("maicuongtho") && pass.getText().toString().equals("Cntt60ntu")) {
-                            Toast.makeText(MainActivity.this, "ban da dang nhap thanh cong", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MainActivity.this, "user and password is conect", Toast.LENGTH_SHORT).show();
                         } else
-                            Toast.makeText(MainActivity.this, "dang nhap that bai", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MainActivity.this, "user and password is wrong", Toast.LENGTH_SHORT).show();
 
 
             }
