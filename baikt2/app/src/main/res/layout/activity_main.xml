@@ -7,8 +7,8 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="486dp"
-        android:layout_height="727dp"
+        android:layout_width="409dp"
+        android:layout_height="725dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -18,31 +18,31 @@
         app:layout_constraintVertical_bias="0.0">
 
         <EditText
-            android:id="@+id/view"
-            android:layout_width="match_parent"
-            android:layout_height="108dp"
+            android:id="@+id/manhinh"
+            android:layout_width="409dp"
+            android:layout_height="103dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="100" />
+             />
 
 
         <RadioButton
             android:id="@+id/radioButton2"
-            android:layout_width="match_parent"
+            android:layout_width="409dp"
             android:layout_height="63dp"
             android:text="13%"
             tools:textSize="20dp" />
 
         <RadioButton
             android:id="@+id/radioButton3"
-            android:layout_width="match_parent"
+            android:layout_width="409dp"
             android:layout_height="63dp"
             android:text="15%"
             tools:textSize="20dp" />
 
         <RadioButton
             android:id="@+id/radioButton4"
-            android:layout_width="match_parent"
+            android:layout_width="409dp"
             android:layout_height="63dp"
             android:text="18%"
             tools:textSize="20dp" />
