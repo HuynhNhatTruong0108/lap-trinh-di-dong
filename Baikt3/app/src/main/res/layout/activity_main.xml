@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="607dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="202dp"
+                android:layout_height="59dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:text="Bạn vừa chọn item số:"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="204dp"
+                android:layout_height="66dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:text="Có giá trị là:"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/ed1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/ed2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp">
+
+            <Button
+                android:id="@+id/sua"
+                android:layout_width="135dp"
+                android:layout_height="66dp"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:text="Lưu sửa" />
+
+            <Button
+                android:id="@+id/them"
+                android:layout_width="135dp"
+                android:layout_height="66dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:text="Lưu Thêm" />
+
+            <Button
+                android:id="@+id/xoa"
+                android:layout_width="135dp"
+                android:layout_height="66dp"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:text="XÓA" />
+        </GridLayout>
+
+        <ListView
+            android:id="@+id/Listviewb3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
