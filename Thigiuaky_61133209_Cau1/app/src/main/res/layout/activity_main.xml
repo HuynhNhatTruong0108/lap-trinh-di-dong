@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="726dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:background="#C4DFF4"
+            android:text="Hình Bình Hành"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="Nhập cạnh a"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="Nhập cạnh b"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="Nhập chiều cao h"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnTinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E6746D"
+            android:text="Tính chi vi"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/Tinhdt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tính Diện Tích" />
+
+        <TextView
+            android:id="@+id/KQ"
+            android:layout_width="match_parent"
+            android:layout_height="259dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
